@@ -1,0 +1,17 @@
+{
+  "name": "contains-duplicates",
+  "version": "1.0.0",
+  "description": "The purpose of this directory is to solve a common algorithm, and practice writing my own unit tests",
+  "main": "duplicates.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "save-dev": "^0.0.1-security"
+  }
+}
