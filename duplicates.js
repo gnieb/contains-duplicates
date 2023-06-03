@@ -19,6 +19,9 @@ if (require.main === module) {
   
     console.log("Expecting: false");
     console.log("=>", containsDuplicate([1, 2, 3, 4]));
+
+    console.log("Expecting: false");
+    console.log("=>", containsDuplicate([]));
   }
 
 
@@ -28,3 +31,5 @@ module.exports = containsDuplicate;
 
 // return true if there is more than one element in the array. 
 // can iterate through the arrya and iterate a second time OR create a hashmap. 
+
+// what if it's an empty array
