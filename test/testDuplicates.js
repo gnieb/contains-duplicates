@@ -6,4 +6,9 @@ describe('Testing the Duplicates Algorithm', function () {
         expect(containsDuplicate([])).to.equal(false);
         done();
     })
+
+    it('It can handle an array with only 1 integer', function (done) {
+        expect(containsDuplicate([1])).to.equal(false);
+        done();
+    })
 })
