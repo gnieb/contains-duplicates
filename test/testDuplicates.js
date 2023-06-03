@@ -11,4 +11,9 @@ describe('Testing the Duplicates Algorithm', function () {
         expect(containsDuplicate([1])).to.equal(false);
         done();
     })
+
+    it('The function detects if there are duplicates', function(done) {
+        expect(containsDuplicate([0, 4, 6, 21, 4, 3])).to.equal(true)
+        done();
+    })
 })
